@@ -3,3 +3,56 @@
   padding: 0;
   box-sizing: border-box
 }
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c5f895;
+  width: 100%;
+  height: 100vh;
+}
+
+p {
+  font-size: xx-large;
+  color: aliceblue;
+}
+
+.start  {
+  background: #1be41b;
+  padding: 25px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+  border: solid #181313;
+  border-radius: 1rem;
+}
+
+.main  {
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+  background: rgb(255, 250, 242);
+  border: solid rgb(125, 185, 70);
+  border-radius: .5rem;
+}
+
+button{
+  border: solid;
+  border-radius: .5rem;
+  height: 3em;
+}
+
+input {
+  border: solid;
+  border-radius: .5rem;
+  height: 5em;
+}
+
+output {
+  border: solid;
+  border-radius: .5rem;
+  height: 5em;
+}
