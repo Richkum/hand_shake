@@ -1,8 +1,8 @@
-const start= ()=>{
+const start= () => {
   document.querySelector('button').addEventListener('click', HandShake);
 }
 
-const HandShake= ()=>{
+const HandShake= () => {
   let number= Number.parseInt(document.myForm.number.value);
   let shake= document.querySelector('.result');
 
