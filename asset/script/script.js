@@ -34,7 +34,7 @@ const HandShake= () => {
     shake.textContent = "Handshake: " + result.join(" , ");
   }
   else{
-    shake.textContent = "enter a  number between 0 and 64 but not 16";
+    shake.textContent = "enter a number between 0 and 64";
   }
 }
 start();
